@@ -1,7 +1,7 @@
 /*
   PID Interface v.1.0 SNAPSHOT
   Author - Juan López
-  Last Update - 15/8/16
+  Last Update - 07/12/16
 */
 
 PID roll_controller(&pid_roll_in,   &pid_roll_out,  &pid_roll_setpoint,  0.250, 0.950, 0.011, REVERSE);
